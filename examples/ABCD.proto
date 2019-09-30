@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "dependency.proto";
+
+message ABCD {
+    string query = 1;
+    int32 page_number = 2;
+    int32 result_per_page = 3;
+    Dependency dep = 4;
+}
